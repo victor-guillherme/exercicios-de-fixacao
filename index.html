@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro facebook</title>
+</head>
+<body>
+    <h1>Cadastre-se</h1>
+
+    <form action="index.html" method="get">
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+        <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou email">
+        <input type="password" name="senha" id="senha" placeholder="Nova senha">
+
+        <br>
+        <br>
+
+        <label>Data de nascimento</label><br>
+        <select name="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <select name="mes">
+            <option value="jan">jan</option>
+            <option value="fev">fev</option>
+            <option value="mar">mar</option>
+            <option value="abr">abr</option>
+            <option value="mai">mai</option>
+        </select>
+
+        <select name="ano">
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="">Gênero</label><br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" id="personalizado" name="genero" value="personalizado">
+
+        <br>
+        <br>
+
+        <input type="submit" value="Cadastre-se">
+    </form>
+
+
+</body>
+</html>
